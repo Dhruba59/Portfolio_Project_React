@@ -3,23 +3,24 @@
   flex-direction: row;
   margin: 15px;
   flex:1;
-  align-items: center;
+  text-align: start;
   justify-content: space-between;
 }
 .projectInfo {
   display: flex;
   flex-direction: column  ;
-  justify-content: space-between;
+  justify-content: center;
+  margin-right: 5%;
 }
 .title{
   font-size: 25px;
   font-weight: 400;
   color: rgb(0, 0, 0);
-  align-self: start;
+
 }
  .description{
-   text-align: start;
    max-width: 90%;
+   font-family: serif;
  }
 .links{
   margin-bottom: 2%;
@@ -40,14 +41,10 @@
   font-weight: 500;
 }
 
-.description {
-  font-family: serif
-}
-
 .tags {
   display: flex;
   flex-wrap: wrap;
-  max-width: 60%;
+  max-width: 70%;
   margin-top: 2%;
   margin-bottom: 2%;
 }
@@ -61,12 +58,38 @@
 }
 
 .projectImage{
-  width: 400px;
-  height: 300px;
+  width: 30vmax;
+  height: 35vh;
 }
 
 .button {
-max-width: 30%;
-height: 30px;
-cursor: pointer;
+  max-width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 720px){
+  .project{ 
+    flex-direction: column-reverse;
+  }
+  .projectInfo{
+    align-items: center;
+    margin-right: 0%;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+  }
+
+  .description{
+    max-width: 100%;
+    
+  }
+  .projectImage{
+    align-self: center;
+    width: 60%;
+    height: 50%;
+  }
+  .tags{
+    max-width: 100%;
+  }
 }

@@ -28,7 +28,25 @@ const projectData = [
     github: 'https://github.com/CSE-446-2016/Project-Distribution-G43',
     demo: 'asdfa',
     image: image3
-  }
+  },
+  {
+    id: 1,
+    title: 'Project – Thesis management website',
+    desc: 'P2P Messaging App is a PEER-to-PEER android app built with Android Studio. 2 devices sharing same Wi-Fi network can communicate with each other through this application via socket programming.',
+    tags: ['Android Development', 'Java', 'socket programming'],
+    github: 'https://github.com/Dhruba59/Networking-Project/tree/master/app/src/main/java/com/example/p2pmessagingapp',
+    demo: 'asdfa',
+    image: image2
+  },
+  {
+    id: 1,
+    title: 'Project – Thesis management website',
+    desc: 'A web project for managing the projects and thesisssssssssss sdfsdfs df sdfs  fsfs sdsdfsdfss sdfssdfs  sdf s sd fsdfsdfsdfs',
+    tags: ['Javascript', 'EJS', 'NodeJs','Express'],
+    github: 'https://github.com/CSE-446-2016/Project-Distribution-G43',
+    demo: 'asdfa',
+    image: image3
+  },
 ]
 
 export default projectData;
