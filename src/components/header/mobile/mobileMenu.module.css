@@ -1,0 +1,67 @@
+.menus {
+  height: 80vh;
+  width: 60vw;
+  background-color: white;
+  position:  fixed;
+  padding: 15px;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+}
+.nav {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+}
+
+
+.menus hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 50%;               
+  background-color:#d1cfcf;
+  height: .1px;
+
+}
+
+.closeIcon {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  transition-duration: .5s;
+  z-index: 100;
+
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.closeIcon:hover, .closeIcon:focus, .closeIcon:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.3);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.menus a {
+  text-decoration: none;
+  color: rgb(78, 78, 78);
+  font-size: 20px;
+  padding: 3%;
+
+  text-shadow: 1ch;
+
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.menus a:hover, .menus a:focus, .menus a:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.3);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}

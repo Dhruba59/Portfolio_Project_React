@@ -1,0 +1,15 @@
+.body hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 50%;               
+  background-color:#000000;
+  height: .5px;
+  
+}
+
+.seperator{
+  position: relative;
+  font-size: 39px;
+  font-weight: 5;
+}
