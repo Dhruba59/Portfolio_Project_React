@@ -5,8 +5,8 @@ const projectData = [
   {
     id: 1,
     title: 'Music Recommendation using facial emotion',
-    desc: 'dfadfa adfadf sdfasd as asdfasd asdfas dfasdf asdf asdf asd 23423423 dfsdf dsfsdfsdf sdf sdfsdf dfsdfs dsfsdfsdfsdfsdf sdfsdfsd sdsdfs s dfssdfsds sd sdfsdfsdf sdfsdfsd  sdfsdfsd s sdfsd fffd sd fsdfsdf',
-    tags: ['machine learning', 'python', 'cnn', 'opencv'],
+    desc: 'This is a machine learning based project. Goal of this project is to make an system to recommend music through facial expression and some other parameters.',
+    tags: ['machine learning', 'Python', 'CNN', 'OpenCv'],
     github: 'https://github.com/Dhruba59/Music-recommendation-based-on-facial-emotion-recognition',
     demo: 'asdfa',
     image: image1
