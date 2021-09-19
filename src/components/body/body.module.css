@@ -1,15 +1,23 @@
+.body{
+
+}
+
 .body hr {
   border: 0;
   clear:both;
   display:block;
   width: 50%;               
-  background-color:#000000;
+  background-color:#adadad;
   height: .5px;
-  
+  opacity: 50%;
 }
 
 .seperator{
-  position: relative;
-  font-size: 39px;
-  font-weight: 5;
+  padding-bottom: 5%;
+  opacity: 50%;
+  font-size: 30px;
+  font-weight: 50;
+}
+.welcome{
+
 }

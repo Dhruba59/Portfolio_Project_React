@@ -9,7 +9,7 @@ const Footer = () => {
   }
 
   return (
-    <div className={css.footer}>
+    <div className={css.footer} id="contact">
       <div className={css.contactMe}>
         <label>Contact</label>
         <p>Dhruba Jyoti Sarker <br/>

@@ -8,13 +8,20 @@ import css from './body.module.css'
 const Body = () => {
   return (
     <div className={css.body}>
-      <About />
-      <label className={css.seperator}>Projects</label>
-      <hr/>
-      <Projects />
-      <label className={css.seperator}>Skills</label>
-      <hr/>
-      <Skills />
+      <div id="#about">
+      <label className={css.seperator}>Welcome to my Portfolio</label>
+        <About/>
+      </div>
+      <div id="projects">
+        <label className={css.seperator}>Projects</label>
+        <hr/>
+        <Projects />
+      </div>
+      <div id="skills">
+        <label className={css.seperator}>Skills</label>
+        <hr/>
+        <Skills />
+      </div>  
       {/* <Contact /> */}
     </div>
   )

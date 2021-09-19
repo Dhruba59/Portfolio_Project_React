@@ -5,7 +5,7 @@ import css from './projects.module.css'
 
 const Projects = () => {
   return (
-    <div className={css.projects}>
+    <div className={css.projects} id="projects">
       {projectsData.map((project) => {
         return <ProjectCard project={project}/>
       })}

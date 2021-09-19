@@ -9,7 +9,7 @@ const About = () => {
     window.location.replace(link);
   }
   return (
-    <div className={css.about}>
+    <div className={css.about} id="about">
       <div className={css.myPhotoDiv}>
         <img className={css.myPhoto} src={myPhoto}></img>
       </div>

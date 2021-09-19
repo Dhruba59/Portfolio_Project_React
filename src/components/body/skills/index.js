@@ -4,7 +4,7 @@ import css from './skills.module.css'
 import SkillCard from './skill card/index'
 const Skills = () => {
   return (
-    <div className={css.skills}>
+    <div className={css.skills} id="skills">
       {skillsData.map( (item) => {
         return(
           <div className={css.skillsSection}>
