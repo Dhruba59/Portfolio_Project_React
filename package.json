@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/helper-create-class-features-plugin": "^7.15.4",
     "gh-pages": "^3.2.3"
   }
 }
