@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio_Project_React/static/css/main.ca20e3a2.chunk.css",
-    "main.js": "/Portfolio_Project_React/static/js/main.7c5c3894.chunk.js",
-    "main.js.map": "/Portfolio_Project_React/static/js/main.7c5c3894.chunk.js.map",
+    "main.css": "/Portfolio_Project_React/static/css/main.071ec374.chunk.css",
+    "main.js": "/Portfolio_Project_React/static/js/main.4a4c6c17.chunk.js",
+    "main.js.map": "/Portfolio_Project_React/static/js/main.4a4c6c17.chunk.js.map",
     "runtime-main.js": "/Portfolio_Project_React/static/js/runtime-main.bd971e4b.js",
     "runtime-main.js.map": "/Portfolio_Project_React/static/js/runtime-main.bd971e4b.js.map",
     "static/js/2.7ca2b945.chunk.js": "/Portfolio_Project_React/static/js/2.7ca2b945.chunk.js",
@@ -10,16 +10,18 @@
     "static/js/3.686951e8.chunk.js": "/Portfolio_Project_React/static/js/3.686951e8.chunk.js",
     "static/js/3.686951e8.chunk.js.map": "/Portfolio_Project_React/static/js/3.686951e8.chunk.js.map",
     "index.html": "/Portfolio_Project_React/index.html",
-    "static/css/main.ca20e3a2.chunk.css.map": "/Portfolio_Project_React/static/css/main.ca20e3a2.chunk.css.map",
+    "static/css/main.071ec374.chunk.css.map": "/Portfolio_Project_React/static/css/main.071ec374.chunk.css.map",
     "static/js/2.7ca2b945.chunk.js.LICENSE.txt": "/Portfolio_Project_React/static/js/2.7ca2b945.chunk.js.LICENSE.txt",
     "static/media/Layer 2.f6693477.jpg": "/Portfolio_Project_React/static/media/Layer 2.f6693477.jpg",
     "static/media/menu.a4872a60.png": "/Portfolio_Project_React/static/media/menu.a4872a60.png",
-    "static/media/project 3.3306338b.jpg": "/Portfolio_Project_React/static/media/project 3.3306338b.jpg"
+    "static/media/music_recommendation_img.c5733a92.PNG": "/Portfolio_Project_React/static/media/music_recommendation_img.c5733a92.PNG",
+    "static/media/p2p_app_img.459493b1.jpg": "/Portfolio_Project_React/static/media/p2p_app_img.459493b1.jpg",
+    "static/media/project-management_img.baa8d23e.png": "/Portfolio_Project_React/static/media/project-management_img.baa8d23e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bd971e4b.js",
     "static/js/2.7ca2b945.chunk.js",
-    "static/css/main.ca20e3a2.chunk.css",
-    "static/js/main.7c5c3894.chunk.js"
+    "static/css/main.071ec374.chunk.css",
+    "static/js/main.4a4c6c17.chunk.js"
   ]
 }
