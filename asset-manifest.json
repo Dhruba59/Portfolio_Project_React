@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio_Project_React/static/css/main.47003606.chunk.css",
-    "main.js": "/Portfolio_Project_React/static/js/main.78be7397.chunk.js",
-    "main.js.map": "/Portfolio_Project_React/static/js/main.78be7397.chunk.js.map",
+    "main.css": "/Portfolio_Project_React/static/css/main.48b9f789.chunk.css",
+    "main.js": "/Portfolio_Project_React/static/js/main.3e6b9ebe.chunk.js",
+    "main.js.map": "/Portfolio_Project_React/static/js/main.3e6b9ebe.chunk.js.map",
     "runtime-main.js": "/Portfolio_Project_React/static/js/runtime-main.bd971e4b.js",
     "runtime-main.js.map": "/Portfolio_Project_React/static/js/runtime-main.bd971e4b.js.map",
-    "static/js/2.7ca2b945.chunk.js": "/Portfolio_Project_React/static/js/2.7ca2b945.chunk.js",
-    "static/js/2.7ca2b945.chunk.js.map": "/Portfolio_Project_React/static/js/2.7ca2b945.chunk.js.map",
+    "static/js/2.4169a052.chunk.js": "/Portfolio_Project_React/static/js/2.4169a052.chunk.js",
+    "static/js/2.4169a052.chunk.js.map": "/Portfolio_Project_React/static/js/2.4169a052.chunk.js.map",
     "static/js/3.686951e8.chunk.js": "/Portfolio_Project_React/static/js/3.686951e8.chunk.js",
     "static/js/3.686951e8.chunk.js.map": "/Portfolio_Project_React/static/js/3.686951e8.chunk.js.map",
     "index.html": "/Portfolio_Project_React/index.html",
-    "static/css/main.47003606.chunk.css.map": "/Portfolio_Project_React/static/css/main.47003606.chunk.css.map",
-    "static/js/2.7ca2b945.chunk.js.LICENSE.txt": "/Portfolio_Project_React/static/js/2.7ca2b945.chunk.js.LICENSE.txt",
+    "static/css/main.48b9f789.chunk.css.map": "/Portfolio_Project_React/static/css/main.48b9f789.chunk.css.map",
+    "static/js/2.4169a052.chunk.js.LICENSE.txt": "/Portfolio_Project_React/static/js/2.4169a052.chunk.js.LICENSE.txt",
     "static/media/Layer 2.f6693477.jpg": "/Portfolio_Project_React/static/media/Layer 2.f6693477.jpg",
     "static/media/menu.a4872a60.png": "/Portfolio_Project_React/static/media/menu.a4872a60.png",
     "static/media/music_recommendation_img.c5733a92.PNG": "/Portfolio_Project_React/static/media/music_recommendation_img.c5733a92.PNG",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.bd971e4b.js",
-    "static/js/2.7ca2b945.chunk.js",
-    "static/css/main.47003606.chunk.css",
-    "static/js/main.78be7397.chunk.js"
+    "static/js/2.4169a052.chunk.js",
+    "static/css/main.48b9f789.chunk.css",
+    "static/js/main.3e6b9ebe.chunk.js"
   ]
 }
