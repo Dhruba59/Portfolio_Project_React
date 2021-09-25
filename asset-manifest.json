@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio_Project_React/static/css/main.b642d1f5.chunk.css",
-    "main.js": "/Portfolio_Project_React/static/js/main.3e6b9ebe.chunk.js",
-    "main.js.map": "/Portfolio_Project_React/static/js/main.3e6b9ebe.chunk.js.map",
+    "main.js": "/Portfolio_Project_React/static/js/main.0a7fafa3.chunk.js",
+    "main.js.map": "/Portfolio_Project_React/static/js/main.0a7fafa3.chunk.js.map",
     "runtime-main.js": "/Portfolio_Project_React/static/js/runtime-main.bd971e4b.js",
     "runtime-main.js.map": "/Portfolio_Project_React/static/js/runtime-main.bd971e4b.js.map",
     "static/js/2.4169a052.chunk.js": "/Portfolio_Project_React/static/js/2.4169a052.chunk.js",
@@ -15,6 +15,7 @@
     "static/media/Layer 2.f6693477.jpg": "/Portfolio_Project_React/static/media/Layer 2.f6693477.jpg",
     "static/media/menu.a4872a60.png": "/Portfolio_Project_React/static/media/menu.a4872a60.png",
     "static/media/music_recommendation_img.c5733a92.PNG": "/Portfolio_Project_React/static/media/music_recommendation_img.c5733a92.PNG",
+    "static/media/oop_image.d236aac2.jpg": "/Portfolio_Project_React/static/media/oop_image.d236aac2.jpg",
     "static/media/p2p_app_img.459493b1.jpg": "/Portfolio_Project_React/static/media/p2p_app_img.459493b1.jpg",
     "static/media/project-management_img.baa8d23e.png": "/Portfolio_Project_React/static/media/project-management_img.baa8d23e.png"
   },
@@ -22,6 +23,6 @@
     "static/js/runtime-main.bd971e4b.js",
     "static/js/2.4169a052.chunk.js",
     "static/css/main.b642d1f5.chunk.css",
-    "static/js/main.3e6b9ebe.chunk.js"
+    "static/js/main.0a7fafa3.chunk.js"
   ]
 }
