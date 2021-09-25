@@ -11,8 +11,8 @@ const index = () => {
       <div className={css.home}>
         <Header/>
         <Body/>
+        <Footer/>
       </div>
-      <Footer/>
     </Router>
   )
 }

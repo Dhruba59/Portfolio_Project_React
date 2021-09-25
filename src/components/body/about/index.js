@@ -14,7 +14,7 @@ const About = () => {
         <img className={css.myPhoto} src={myPhoto}></img>
       </div>
       <p>Hello, I am Dhruba. I have graduated from Shahjalal University of Science and Technology. My hometown is Sylhet, Bangladesh. Currently I am looking for a opportunity to start my career. I love to work with web development. I have experience in frontend development using React, javascript etc. Also I am familiar with backend development using NodeJs, Express, MongoDB etc. I would love to start my career with these stacks. 
-        <br/> Apart from my career and academic life, I love to travel alot. Also I have a great passion for photography and cinematography. You can have a look on my photos on instagram.
+        <br/> <br/> Apart from my career and academic life, I love to travel alot. Also I have a great passion for photography and cinematography. You can have a look on my photos on instagram.
       </p>
       <div className={css.socialLinks}>
           {socialData.map((item) => {

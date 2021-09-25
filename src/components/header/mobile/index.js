@@ -9,13 +9,13 @@ const index = (props) => {
            src={closeIcon}
            onClick={() => props.setIsOpen(false)}></img>
       <div className={css.menus}>
+        <a href="#about"> About</a>
+        <hr />
         <a href="#projects"> Projects </a>
         <hr/>
         <a href="#skills"> Skills </a>
         <hr/>
-        <a href="#about"> About</a>
-        <hr />
-        <a href="#Contact"> Contact </a>
+        <a href="#contact"> Contact </a>
         <hr/>
         <a href="#Others"> Others </a>
       </div>

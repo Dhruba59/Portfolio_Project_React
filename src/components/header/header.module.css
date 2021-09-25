@@ -1,16 +1,22 @@
 .header {
   display: flex;
   justify-content: space-between;
-  flex: 1;
-  padding: 15px;
-  position: relative;
+  position: sticky;
+  z-index: 200;
+  top: 0;
+  margin-top: 2%;
+  height: 80px;
+  width: 100%;
+  background-color:floralwhite ;
   align-items: center;
+
 }
 
 .menu {
   display: flex;
   flex: 1;
   justify-content: flex-end;
+  padding-right: 10%;
 }
 
 .menuIcon {
@@ -36,6 +42,7 @@
 .logo {
   font-size: 30px;
   font-weight: 900;
+  padding-left: 10%;
 }
 
 .footer {
@@ -43,6 +50,9 @@
 }
 
 @media only screen and (max-width: 720px){
+  .header{
+    height: 80px;
+  }
   .webMenu{
     display: none;
   }

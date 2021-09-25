@@ -13,7 +13,7 @@ const Body = () => {
         <About/>
       </div>
       <div className={css.bodyElement} id="projects">
-        <p className={css.seperator}>Projects</p>
+        <div className={css.seperator}>Projects</div>
        
         <Projects />
       </div>

@@ -2,13 +2,26 @@ import React from 'react'
 import css from './header.module.css'
 import MobileMenu from './mobile/index'
 import WebMenu from './web/index'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import menuIcon from '../../assets/img/menu.png'
 
 const Index = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [headerColor, setHeaderColor] = useState('white');
+
+  const listenScrollEvent = e => {
+    if (window.scrollY > 200) {
+      setHeaderColor('floralwhite');
+    } else {
+      setHeaderColor('white');
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', listenScrollEvent)
+  }, [])
   return (
-    <div className={css.header}>
+    <div style={{backgroundColor: headerColor}} className={css.header}>
       <div className={css.logo}>Portfolio</div>
       <div className={css.menu}>
         <div className={css.webMenu}>

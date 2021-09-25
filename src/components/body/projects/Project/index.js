@@ -10,7 +10,7 @@ const Project = ({project}) => {
         <div className={css.links}>
           <a href={project.github}>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-            <label>Github</label>
+            <div>Github</div>
           </a>
         </div>
         <div className={css.description}>{project.desc}</div>
