@@ -17,10 +17,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: 'yarn' # Speeds up installs by caching dependencies
-
-      - name: Build Project
-        run: NODE_OPTIONS=--openssl-legacy-provider yarn build
+          # cache: 'yarn' # Speeds up installs by caching dependencies
           
       - name: Install react router dom
         run: yarn add react-router-dom
@@ -32,7 +29,7 @@ jobs:
         run: yarn install
 
       - name: Build Project
-        run: yarn build
+        run: NODE_OPTIONS=--openssl-legacy-provider yarn build
 
       - name: Deploy to Vercel
         run: yarn global add vercel && vercel --prod --token=${{ secrets.VERCEL_TOKEN }}
