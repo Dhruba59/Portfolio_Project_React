@@ -21,6 +21,9 @@ jobs:
           
       - name: Install react router dom
         run: yarn add react-router-dom
+
+      - name: run postcss
+        run: yarn list postcss
         
       - name: Install Dependencies
         run: yarn install
