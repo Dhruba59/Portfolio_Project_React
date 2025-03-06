@@ -31,6 +31,9 @@ jobs:
       - name: Install Dependencies
         run: yarn install
 
+      - name: Run ESLint
+        run: yarn lint --max-warnings=999
+
       - name: Build Project
         run: NODE_OPTIONS=--openssl-legacy-provider yarn build
 
