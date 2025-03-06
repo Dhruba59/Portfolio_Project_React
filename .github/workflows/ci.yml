@@ -23,6 +23,7 @@ jobs:
         run:
           yarn upgrade @babel/core --latest
           yarn upgrade react-scripts --latest
+          yarn add react@18 react-dom@18
 
       - name: Install react router dom
         run: yarn add react-router-dom
