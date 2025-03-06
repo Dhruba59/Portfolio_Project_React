@@ -18,7 +18,10 @@ jobs:
         with:
           node-version: 14
           cache: 'yarn' # Speeds up installs by caching dependencies
-
+          
+      - name: Verify Installed Packages
+        run: yarn list
+        
       - name: Install Dependencies
         run: yarn install
 
