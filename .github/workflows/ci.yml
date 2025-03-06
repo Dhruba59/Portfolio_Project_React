@@ -1,4 +1,4 @@
-name: portofolio react app
+name: portofolio-react-app
 
 on:
   push:
@@ -40,6 +40,6 @@ jobs:
       - name: Build Project
         run: NODE_OPTIONS=--openssl-legacy-provider yarn build
 
-      - name: Deploy to Vercel
+      - name: deploy to vercel
         run: yarn global add vercel && vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --yes
   
