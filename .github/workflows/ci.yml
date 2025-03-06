@@ -18,6 +18,9 @@ jobs:
         with:
           node-version: 20
           cache: 'yarn' # Speeds up installs by caching dependencies
+
+      - name: Build Project
+        run: NODE_OPTIONS=--openssl-legacy-provider yarn build
           
       - name: Install react router dom
         run: yarn add react-router-dom
