@@ -1,0 +1,30 @@
+name: Portofolio React
+
+on:
+  push:
+    branches: 
+      - main
+      
+jobs:
+ build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+          cache: 'yarn' # Speeds up installs by caching dependencies
+
+      - name: Install Dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Build Project
+        run: yarn build
+
+      - name: Deploy to Vercel
+        run: yarn global add vercel && vercel --prod --token=${{ secrets.VERCEL_TOKEN }}
+  
