@@ -41,5 +41,5 @@ jobs:
         run: NODE_OPTIONS=--openssl-legacy-provider yarn build
 
       - name: Deploy to Vercel
-        run: yarn global add vercel && vercel --prod --token=${{ secrets.VERCEL_TOKEN }}
+        run: yarn global add vercel && vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --yes
   
