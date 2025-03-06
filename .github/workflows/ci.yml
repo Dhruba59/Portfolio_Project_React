@@ -20,7 +20,7 @@ jobs:
           cache: 'yarn' # Speeds up installs by caching dependencies
 
       - name: Install Dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install
 
       - name: Build Project
         run: yarn build
