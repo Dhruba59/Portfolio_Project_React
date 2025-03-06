@@ -23,7 +23,7 @@ jobs:
         run: yarn add react-router-dom
 
       - name: run postcss
-        run: yarn list postcss
+        run: rm -rf node_modules yarn.lock
         
       - name: Install Dependencies
         run: yarn install
