@@ -42,4 +42,10 @@ jobs:
 
       - name: deploy to vercel
         run: yarn global add vercel && vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --yes
+
+
+
+
+
+
   
